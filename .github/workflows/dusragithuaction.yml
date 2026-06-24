@@ -5,6 +5,6 @@ jobs:
   say-hi:
     runs-on: ubuntu-latest
     
-    step:
+    steps:
       - name: say hello
         run: echo "run second workflow"
