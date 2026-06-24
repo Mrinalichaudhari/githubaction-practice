@@ -1,0 +1,10 @@
+name: 4thworkflow
+on:
+  workflow_dispatch: 
+
+jobs:
+  chickworkflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 4th time try
+        run: echo "run 4th workflow"
