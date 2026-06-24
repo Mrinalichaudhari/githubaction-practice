@@ -1,5 +1,7 @@
 # first step create workflow
 name: githubaction2
+on: 
+  workflow_dispatch: 
 
 jobs:
   say-hi:
