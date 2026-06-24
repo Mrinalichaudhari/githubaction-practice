@@ -1,0 +1,10 @@
+# first step create workflow
+name: githubaction2
+
+jobs:
+  say-hi:
+    runs-on: ubuntu-latest
+    
+    step:
+      - name: say hello
+        run: echo "run second workflow"
