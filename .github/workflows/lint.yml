@@ -12,7 +12,6 @@ jobs :
   code:
     runs-on: ubuntu-latest
     steps:
-      
       - name: checkout or clone the code
         # actions automate git clone command (use prebuilt action)
         - uses: actions/checkout@v7 
