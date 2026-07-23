@@ -6,7 +6,8 @@ name: autolinter
 
 on: 
   push: 
-    paths: "*.py"
+    paths:
+      - "*.py"
 
 jobs :
   code:
@@ -14,7 +15,8 @@ jobs :
     steps:
       - name: checkout or clone the code
         # actions automate git clone command (use prebuilt action)
-        - uses: actions/checkout@v7 
-        # this step install a linter tool 
+        uses: actions/checkout@v7 
+        # this step install a linter tool
+      
       - name: install linter
         run: pip install ruff
