@@ -12,7 +12,7 @@ jobs :
   code:
     runs-on: ubuntu-latest
     steps:
-        # this step will cole the code automaticaaly in ti the runner
+      
       - name: checkout or clone the code
         # actions automate git clone command (use prebuilt action)
         - uses: actions/checkout@v7 
