@@ -15,7 +15,7 @@ jobs :
       - name: checkout or clone the code
         # actions automate git clone command (use prebuilt action)
         uses: actions/checkout@v7 
-        # this step install a linter tool
+        # this step install a linter tool 
       
       - name: install linter
         run: pip install ruff
